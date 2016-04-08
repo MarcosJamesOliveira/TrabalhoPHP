@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+}
+.cabecalho{
+	background-color: #7AD6FF;
+	height: 100%;
+	text-align: center;
+}
+.cabecalho > h1{
+	font-size: 46px;
+	padding-top: 20px;
+}
+.conteudo-principal{
+	width: 100%;
+	text-align: center
+	
+}
+.menu{
+	/*background-color: yellow;*/
+	width: 100%;
+	/*float: left;*/
+	font-size: 200%;
+
+}
+.menu div{
+	text-align: center;
+	padding-top: 05px;
+	width: 33.33%;
+	height: 50px;
+	background-color: #63777F;
+	float: left;
+	transition: 0.5s box-shadow;
+}
+.menu div:hover{
+	cursor:pointer;
+	box-shadow: 0px 0px 30px #000;
+}
+.menu a{
+	color: white;
+}
+.rodape-pagina{
+	text-align: center;
+	background-color: #0E5C7F;
+	height: 150px;
+	/*clear: both;*/
+	/*position:absolute;*/
+	bottom:0;
+	width:100%;
+}
+.rodape-pagina p, .rodape-pagina div{
+	padding-bottom: 10px;
+	color: #87CEEB;
+}
+.rodape-pagina a{
+	color: #fff;
+	text-decoration: none;
+}
